@@ -1,0 +1,13 @@
+{
+  "name": "minimal-shadow-cljs-release",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "shadow-cljs": "^2.19.5"
+  },
+  "scripts": {
+    "dev": "shadow-cljs watch app",
+    "build": "shadow-cljs release app"
+  }
+}

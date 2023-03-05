@@ -1,0 +1,9 @@
+
+{:source-paths ["src/"]
+ :dependencies []
+ :builds {:app {:output-dir "dist/"
+                :js-options {:entry-keys ["module" "browser" "main"]
+                             :js-package-dirs ["packages" "node_modules"]}
+                :target :browser
+                :asset-path "."
+                :modules {:main {:init-fn app.main/main!}}}}}
